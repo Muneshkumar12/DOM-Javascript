@@ -8,9 +8,11 @@ for(i = 0; i<profilelist.length; i++){
     var data = document.createElement("div");
     var heading = document.createElement("h1");
     var paraghraph = document.createElement("p")
+    var button = document.createElement("button");
     row.appendChild(card);
     card.appendChild(img);
     card.appendChild(data);
+    card.appendChild(button);
     data.appendChild(heading);
     data.appendChild(paraghraph);
     data.setAttribute("class" , "data")
@@ -24,5 +26,6 @@ for(i = 0; i<profilelist.length; i++){
     container.setAttribute("id", "main")
     heading.innerHTML = "Jeremy Flores";
     paraghraph.innerHTML= "Lorem ipsum dolor sit amet consectetur adipisicing.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem maxime quas distinctio vero, sit accusantium blanditiis cupiditate tempora placeat quod!";
+    button.innerHTML = "Read more"
     
 }
