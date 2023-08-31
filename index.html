@@ -9,22 +9,17 @@
     <style>
         #main{
             background-color: gray;
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            justify-content: space-between;
         }
         .card{
-          width: 300px;
-          margin-top: 20px;
+          margin-bottom: 10px;
           padding: 20px;
           height: 400px;
             background: linear-gradient(
                 to bottom,
-             pink 0%,
-             pink 30%,
-             blue 30%,
-             blue 100%
+             rgb(240, 117, 137) 0%,
+             rgb(235, 121, 140) 30%,
+             rgb(98, 98, 232) 30%,
+             rgb(103, 103, 226) 100%
             );
             display: flex;
             align-items: center;
@@ -44,15 +39,16 @@
         }
         .data>p{
             font-size: 12px;
-            /* display: flex;
-            align-items: center;
-            justify-content: center; */
         }
        
     </style>
 </head>
 <body>
-    <div id="main">
+    <div id="main" class="container-fluid">
+        <div class="row" id="row">
+
+        </div>
+    </div>
         <!-- <div class="card"> -->
                     <!-- <img src="./images/a-man-profile-picture-with-blue-and-green-background-made-by-LinkedIn-Profile-Picture-Maker.webp" alt=""> -->
                <!-- <div> -->
@@ -60,7 +56,7 @@
                 <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p> -->
             <!-- </div> -->
         <!-- </div> -->
-    </div>
+ 
 
     <script src="file:///F:/bootstrap/bootstrap-5.3.1-dist/js/bootstrap.js"></script>
     <script src="./pages/index.js"></script>
